@@ -1,4 +1,4 @@
 $(document).ready(function(){
-	$("#example").css("background", "yellow");
-	$("#example").css("border", "solid", "black");
+	$("#example").css({"background-color": "yellow", "border": "3px solid black"});
+
 });
