@@ -11,7 +11,8 @@ $(function(){
  $('.example-two').css('border', '4px solid gray');
 
 //  By ELEMENT 
-$('h5').click(function(){
+$('h5').click(function(){ // anonymous function 
+})();
 	$('h5').fadeOut('slow', 'linear');
 });
 
