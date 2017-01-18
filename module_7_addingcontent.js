@@ -12,5 +12,11 @@ $("#prepend-example").prepend(content);
 $("#before-example").before(content3);
  
 $("#after-example").after(content3);
+// html 
+$('#html-example').html(content);
+
+// text 
+$('#text-example').text(content2);
+
 
 });
