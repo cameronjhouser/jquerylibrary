@@ -6,7 +6,7 @@ $(document).ready(function(){
     // adding classes
     $("#add-class").addClass("font-color-change");
 
-    // toggle classes
+    // toggle classes// 
     // target the button and have it perform a function on click
     $("#toggle-button").click(function(){
         $("#toggle-class p").toggleClass("font-color-change");
